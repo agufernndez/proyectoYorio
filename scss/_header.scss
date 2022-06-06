@@ -1,0 +1,75 @@
+@font-face {
+    font-family: R regular;
+    src: url(../font/Raleway-Regular.ttf);
+  }
+@font-face {
+    font-family: R extrabold;
+    src: url(../font/Raleway-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: R thin;
+        src: url(../font/Raleway-Thin.ttf);
+        }
+@font-face {
+      font-family: bodoni;
+      src: url(../font/bodoni-bd-bt/BodonBd.ttf);
+  }
+.divHead {
+    position:absolute;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    top: 50px;
+}
+
+.logoPNG {
+    height: 150px;
+    width: auto;
+    position: absolute;
+    left: 40px;
+    // top: -10px;
+}
+
+
+.listaNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 500px;
+    left: 500px;
+    // top: 50px;
+    font-family: R regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+
+    color: #FBF8F8;
+
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
+
+    .nav {
+        list-style: none;
+        color: #FBF8F8;
+        text-decoration: none;
+    }
+
+}
+
+#button {
+    height: 50px;
+    position: absolute;
+    left: 1250px;
+    font-family: R regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    color: #FBF8F8;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
+}

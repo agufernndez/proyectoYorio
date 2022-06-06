@@ -1,0 +1,54 @@
+// INDEX HEADER
+@import "header";
+
+
+
+@font-face {
+    font-family: R regular;
+    src: url(../font/Raleway-Regular.ttf);
+  }
+@font-face {
+    font-family: R extrabold;
+    src: url(../font/Raleway-ExtraBold.ttf);
+    }
+@font-face {
+      font-family: bodoni;
+      src: url(../font/bodoni-bd-bt/BodonBd.ttf);
+  }
+
+// MAIN INDEX
+.content {
+    background-image: url(/img/fotoHeader.jpg);
+    height: 100vh;
+    // background-size: cover;
+
+    .textoHeaderInicio {
+        position: absolute;
+        width: 1043px;
+        left: 800px;
+        top: 450px;
+        font-family: R extrabold;
+        font-style: normal;
+        font-weight: 800;
+        font-size: 70px;
+        line-height: 70px;
+        // display: flex;
+        // align-items: center;
+        color: #FFFFFF;
+        mix-blend-mode: normal;
+        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
+    }
+    
+    
+}
+
+
+
+
+// MAIN CONOCENOS
+
+
+// MAIN CAMPANIAS
+
+
+// MAIN AYUDANOS
