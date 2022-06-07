@@ -75,8 +75,9 @@
   src: url(../font/bodoni-bd-bt/BodonBd.ttf); }
 
 .content {
-  background-image: url(/img/fotoHeader.jpg);
-  height: 100vh; }
+  background-image: url(../img/fotoHeader.jpg);
+  height: 100vh;
+  background-size: cover; }
   .content .textoHeaderInicio {
     position: absolute;
     width: 1043px;
