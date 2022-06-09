@@ -14,7 +14,7 @@
   font-family: bodoni;
   src: url(../font/bodoni-bd-bt/BodonBd.ttf); }
 
-.divHead {
+.divHeader {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -74,20 +74,36 @@
   font-family: bodoni;
   src: url(../font/bodoni-bd-bt/BodonBd.ttf); }
 
-.content {
+.content .textoHeaderInicio {
+  position: absolute;
+  width: 1043px;
+  left: 800px;
+  top: 450px;
+  font-family: R extrabold;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 70px;
+  line-height: 70px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
+
+#contentIndex {
   background-image: url(../img/fotoHeader.jpg);
   height: 100vh;
   background-size: cover; }
-  .content .textoHeaderInicio {
-    position: absolute;
-    width: 1043px;
-    left: 800px;
-    top: 450px;
-    font-family: R extrabold;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 70px;
-    color: #FFFFFF;
-    mix-blend-mode: normal;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
+
+#contentConocenos {
+  background-image: url(../img/quienesSomos.jpg);
+  height: 100vh;
+  background-size: cover; }
+
+#contentCampanias {
+  background-image: url(../img/campanias.jpg);
+  height: 100vh;
+  background-size: cover; }
+
+#contentContacto {
+  background-image: url(../img/contacto.jpg);
+  height: 100vh;
+  background-size: cover; }

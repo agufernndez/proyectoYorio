@@ -16,12 +16,8 @@
       src: url(../font/bodoni-bd-bt/BodonBd.ttf);
   }
 
-// MAIN INDEX
+// DIV CON CLASS CONTENT DEL MAIN DE TODAS LAS PAGES.
 .content {
-    background-image: url(../img/fotoHeader.jpg);
-    height: 100vh;
-    background-size: cover;
-
     .textoHeaderInicio {
         position: absolute;
         width: 1043px;
@@ -41,14 +37,32 @@
     
     
 }
+// IMAGEN DE FONDE DE CADA PAGE.
+// INDEX.
+#contentIndex{
+    background-image: url(../img/fotoHeader.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+//CONOCENOS.
+#contentConocenos{
+    background-image: url(../img/quienesSomos.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+
+//CAMPANIAS.
+#contentCampanias{
+    background-image: url(../img/campanias.jpg);
+    height: 100vh;
+    background-size: cover;
+}
 
 
-
-
-// MAIN CONOCENOS
-
-
-// MAIN CAMPANIAS
-
-
-// MAIN AYUDANOS
+//CONTACTO.
+#contentContacto{
+    background-image: url(../img/contacto.jpg);
+    height: 100vh;
+    background-size: cover;
+}
