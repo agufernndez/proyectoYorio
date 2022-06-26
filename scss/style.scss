@@ -16,32 +16,59 @@
       src: url(../font/bodoni-bd-bt/BodonBd.ttf);
   }
 
+  *{
+      box-sizing: border-box;
+  }
+
+
 // DIV CON CLASS CONTENT DEL MAIN DE TODAS LAS PAGES.
-.content {
-    .textoHeaderInicio {
-        position: absolute;
-        width: 1043px;
-        left: 800px;
-        top: 450px;
-        font-family: R extrabold;
-        font-style: normal;
-        font-weight: 800;
-        font-size: 70px;
-        line-height: 70px;
-        // display: flex;
-        // align-items: center;
-        color: #FFFFFF;
-        mix-blend-mode: normal;
-        text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
+.mainIndex{
+    .container1{
+
+        .container1__texto{
+            // background-color: black;
+            width: 600px;
+            margin-left: auto;
+            margin-bottom: 100px;
+            padding-top: 400px;
+            font-family: R extrabold;
+            font-weight: 800;
+            font-size: 70px;
+            line-height: 70px;
+            color: #FFFFFF;
+            text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
+                   
+        }
     }
-    
-    
+   
+
 }
+// .content {
+//     .textoHeaderInicio {
+//         position: absolute;
+//         width: 1043px;
+//         left: 800px;
+//         top: 450px;
+//         font-family: R extrabold;
+//         font-style: normal;
+//         font-weight: 800;
+//         font-size: 70px;
+//         line-height: 70px;
+//         // display: flex;
+//         // align-items: center;
+//         color: #FFFFFF;
+//         mix-blend-mode: normal;
+//         text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
+//     }
+    
+    
+// }
 // IMAGEN DE FONDE DE CADA PAGE.
 // INDEX.
-#contentIndex{
+.container1{
     background-image: url(../img/fotoHeader.jpg);
     height: 100vh;
+    width: 100vw;
     background-size: cover;
 }
 

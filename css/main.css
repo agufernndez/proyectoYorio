@@ -14,53 +14,50 @@
   font-family: bodoni;
   src: url(../font/bodoni-bd-bt/BodonBd.ttf); }
 
-.divHeader {
-  position: absolute;
+* {
+  box-sizing: border-box; }
+
+.header {
   display: flex;
   flex-direction: row;
-  align-items: center;
-  top: 50px; }
-
-.logoPNG {
-  height: 150px;
-  width: auto;
-  position: absolute;
-  left: 40px; }
-
-.listaNav {
-  display: flex;
   justify-content: space-between;
-  align-items: center;
   position: absolute;
-  width: 500px;
-  left: 500px;
-  font-family: R regular;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 12px;
-  line-height: 38px;
-  letter-spacing: 0.1em;
-  font-variant: small-caps;
-  color: #FBF8F8;
-  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
-  .listaNav .nav {
+  height: 10vh;
+  width: 100vw;
+  margin-top: 20px; }
+  .header .header__logo {
+    height: 50px;
+    margin-left: 20px; }
+  .header .nav__list {
     list-style: none;
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    padding: 0%;
+    justify-content: space-between; }
+    .header .nav__list .nav__list-link {
+      color: #FBF8F8;
+      text-decoration: none;
+      font-family: R regular;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 38px;
+      letter-spacing: 0.1em;
+      font-variant: small-caps;
+      text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
+  .header #header__button {
+    height: 50px;
+    margin-right: 20px;
     color: #FBF8F8;
-    text-decoration: none; }
-
-#button {
-  height: 50px;
-  position: absolute;
-  left: 1250px;
-  font-family: R regular;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 15px;
-  line-height: 38px;
-  letter-spacing: 0.1em;
-  font-variant: small-caps;
-  color: #FBF8F8;
-  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
+    font-family: R regular;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 38px;
+    letter-spacing: 0.1em;
+    font-variant: small-caps;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
 
 @font-face {
   font-family: R regular;
@@ -74,23 +71,25 @@
   font-family: bodoni;
   src: url(../font/bodoni-bd-bt/BodonBd.ttf); }
 
-.content .textoHeaderInicio {
-  position: absolute;
-  width: 1043px;
-  left: 800px;
-  top: 450px;
+* {
+  box-sizing: border-box; }
+
+.mainIndex .container1 .container1__texto {
+  width: 600px;
+  margin-left: auto;
+  margin-bottom: 100px;
+  padding-top: 400px;
   font-family: R extrabold;
-  font-style: normal;
   font-weight: 800;
   font-size: 70px;
   line-height: 70px;
   color: #FFFFFF;
-  mix-blend-mode: normal;
   text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
 
-#contentIndex {
+.container1 {
   background-image: url(../img/fotoHeader.jpg);
   height: 100vh;
+  width: 100vw;
   background-size: cover; }
 
 #contentConocenos {

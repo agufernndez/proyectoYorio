@@ -14,55 +14,56 @@
       font-family: bodoni;
       src: url(../font/bodoni-bd-bt/BodonBd.ttf);
   }
-.divHeader {
-    position:absolute;
+
+*{
+  box-sizing: border-box;
+}
+
+  .header {
     display: flex;
     flex-direction: row;
-    align-items: center;
-    top: 50px;
-}
-
-.logoPNG {
-    height: 150px;
-    width: auto;
-    position: absolute;
-    left: 40px;
-    // top: -10px;
-}
-
-
-.listaNav {
-    display: flex;
     justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    width: 500px;
-    left: 500px;
-    // top: 50px;
-    font-family: R regular;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 38px;
-    letter-spacing: 0.1em;
-    font-variant: small-caps;
+    // align-content: center;
+    position:absolute;
+    height: 10vh;
+    width: 100vw;
+    margin-top: 20px;
+    // margin: 20px, 40px,20px;
+
+      .header__logo{
+      height: 50px;
+      margin-left: 20px;
+      }
+
+      .nav__list{
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        width: 700px;
+        padding: 0%;
+        justify-content: space-between;
+        // align-items: center;
+
+        .nav__list-link{
+          
+          color: #FBF8F8;
+          text-decoration: none;
+          font-family: R regular;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 12px;
+          line-height: 38px;
+          letter-spacing: 0.1em;
+          font-variant: small-caps;
+          text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); 
+        }
+      }
+
+   #header__button {
+    height: 50px;
+    margin-right: 20px;
 
     color: #FBF8F8;
-
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
-
-    .nav {
-        list-style: none;
-        color: #FBF8F8;
-        text-decoration: none;
-    }
-
-}
-
-#button {
-    height: 50px;
-    position: absolute;
-    left: 1250px;
     font-family: R regular;
     font-style: normal;
     font-weight: 600;
@@ -70,6 +71,7 @@
     line-height: 38px;
     letter-spacing: 0.1em;
     font-variant: small-caps;
-    color: #FBF8F8;
-    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9);
-}
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); 
+
+   }
+  }

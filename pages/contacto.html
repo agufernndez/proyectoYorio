@@ -11,25 +11,35 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-    <header class="divHeader" data-aos="fade-up"
+    <header class="header" data-aos="fade-up"
     data-aos-duration="3000">
-            <img class="logoPNG" src="../img/YORIO SIN FONDO BLANCO.png" alt="Logo Yorio">
-            <nav class="listaNav" >
-                <a class="nav" href="/index.html">INICIO</a>
-                <a class="nav" href="/pages/conocenos.html">CONOCENOS</a>
-                <a class="nav" href="/pages/campanias.html">CAMPAÑAS</a>
-                <!-- <a class="nav" href="./pages/comoAyudar.html">CÓMO AYUDAR</a> -->
-                <a class="nav" href="/pages/contacto.html">CONTACTO</a>
-
+            <img class="header__logo" src="../img/YORIO SIN FONDO BLANCO copia.png" alt="Logo Yorio">
+            <nav class="header__nav" >
+                <ul class="nav__list">
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="../index.html">INICIO</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="./conocenos.html">CONOCENOS</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="./campanias.html">CAMPAÑAS</a>
+                    </li>
+                    <li class="nav__list-item">
+                        <a class="nav__list-link" href="./contacto.html">CONTACTO</a>
+                    </li>
+                </ul>
              </nav>
-             <button type="button" id="button" class="btn btn-success">AYUDANOS</button>
-             <!-- que el boton me redireccione a la pagina de mercado pago con los distintos montos a donar -->
-        </div>
-    </header>
 
-    <main>
-        <div class="content" id="contentContacto">
-            <h1 class="textoHeaderInicio" data-aos="fade-up"
+             
+              <button type="button" id="header__button" class="btn btn-success">AYUDANOS</button>
+              <!-- que el boton me redireccione a la pagina de mercado pago con los distintos montos a donar -->
+         </div>
+     </header>
+
+    <main class="mainIndex">
+        <div class="container1" id="contentContacto">
+            <h1 class="container1__texto" data-aos="fade-up"
             data-aos-duration="3000" >Contacto.</h1>
         </div>
 
