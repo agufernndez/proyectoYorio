@@ -75,10 +75,12 @@
   box-sizing: border-box; }
 
 .mainIndex .container1 .container1__texto {
-  width: 600px;
+  width: fit-content;
+  position: relative;
+  top: 500px;
+  /*(para que se aplique tiene que estar posicionado SI o SI, sino no funciona*/
   margin-left: auto;
-  margin-bottom: 100px;
-  padding-top: 400px;
+  padding-right: 20px;
   font-family: R extrabold;
   font-weight: 800;
   font-size: 70px;
@@ -87,7 +89,7 @@
   text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
 
 .container1 {
-  background-image: url(../img/fotoHeader.jpg);
+  background-image: url(../img/index.jpg);
   height: 100vh;
   width: 100vw;
   background-size: cover; }
