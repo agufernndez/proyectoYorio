@@ -74,7 +74,7 @@
 * {
   box-sizing: border-box; }
 
-.mainIndex .container1 .container1__texto {
+.main .container1 .container1__texto {
   width: fit-content;
   position: relative;
   top: 500px;
