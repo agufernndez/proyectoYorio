@@ -21,6 +21,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   position: absolute;
   height: 10vh;
   width: 100vw;
@@ -32,7 +33,7 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    width: 700px;
+    width: 600px;
     padding: 0%;
     justify-content: space-between; }
     .header .nav__list .nav__list-link {
@@ -42,22 +43,46 @@
       font-style: normal;
       font-weight: 600;
       font-size: 12px;
-      line-height: 38px;
       letter-spacing: 0.1em;
       font-variant: small-caps;
       text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
   .header #header__button {
-    height: 50px;
+    height: 45px;
     margin-right: 20px;
     color: #FBF8F8;
     font-family: R regular;
-    font-style: normal;
-    font-weight: 600;
     font-size: 15px;
-    line-height: 38px;
     letter-spacing: 0.1em;
     font-variant: small-caps;
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
+
+@media screen and (max-width: 1024px) {
+  .header .nav__list {
+    width: 450px; } }
+
+@media screen and (max-width: 920px) {
+  .header .nav__list {
+    width: 400px; } }
+
+@media screen and (max-width: 768px) {
+  .header .header__logo {
+    height: 40px; }
+  .header .nav__list {
+    flex-direction: column;
+    width: fit-content;
+    align-items: center; }
+    .header .nav__list .nav__list-link {
+      font-size: 10px; }
+  .header #header__button {
+    height: 30px;
+    font-size: 12px;
+    line-height: normal; } }
+
+@media screen and (max-width: 480px) {
+  .header .header__logo {
+    height: 30px; }
+  .header .nav__list-link {
+    font-size: 10px; } }
 
 @font-face {
   font-family: R regular;
