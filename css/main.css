@@ -83,8 +83,8 @@ img {
     flex-direction: column;
     width: fit-content;
     align-items: center;
-    transition: transform 0.3s;
-    transform: translateY(-110%);
+    transition: transform 0.4s;
+    transform: translateY(-140%);
     /*esto hace desaparecer el menu y que solo se vea el menu hamburguesa*/ }
   .header .main-menu--show {
     transform: translateY(0); }
@@ -112,37 +112,60 @@ img {
 * {
   box-sizing: border-box; }
 
-.main .container1 .container1__texto {
-  width: fit-content;
-  position: relative;
-  top: 500px;
-  /*(para que se aplique tiene que estar posicionado SI o SI, sino no funciona*/
-  margin-left: auto;
-  padding-right: 20px;
-  font-family: R extrabold;
-  font-weight: 800;
-  font-size: 70px;
-  line-height: 70px;
-  color: #FFFFFF;
-  text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
-
-.container1 {
-  background-image: url(../img/index.jpg);
+.main .container1 {
   height: 100vh;
   width: 100vw;
   background-size: cover; }
+  .main .container1 .container1__texto {
+    width: fit-content;
+    position: relative;
+    top: 500px;
+    /*(para que se aplique tiene que estar posicionado SI o SI, sino no funciona*/
+    margin-left: auto;
+    padding-right: 20px;
+    font-family: R extrabold;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 70px;
+    color: #FFFFFF;
+    text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
+
+#contentIndex {
+  background-image: url(../img/index.jpg); }
 
 #contentConocenos {
-  background-image: url(../img/quienesSomos.jpg);
-  height: 100vh;
-  background-size: cover; }
+  background-image: url(../img/quienesSomos.jpg); }
 
 #contentCampanias {
-  background-image: url(../img/campanias.jpg);
-  height: 100vh;
-  background-size: cover; }
+  background-image: url(../img/campanias.jpg); }
 
 #contentContacto {
-  background-image: url(../img/contacto.jpg);
-  height: 100vh;
-  background-size: cover; }
+  background-image: url(../img/contacto.jpg); }
+
+@media screen and (max-width: 1024px) {
+  .main .container1 .container1__texto {
+    top: 400px; } }
+
+@media screen and (max-width: 920px) {
+  .main .container1 {
+    height: 60vh; }
+    .main .container1 .container1__texto {
+      font-size: 60px;
+      line-height: 60px;
+      top: 250px; } }
+
+@media screen and (max-width: 768px) {
+  .main .container1 {
+    height: 50vh; }
+    .main .container1 .container1__texto {
+      font-size: 50px;
+      line-height: 50px;
+      top: 200px; } }
+
+@media screen and (max-width: 480px) {
+  .main .container1 {
+    height: 40vh; }
+    .main .container1 .container1__texto {
+      font-size: 30px;
+      line-height: 30px;
+      top: 200px; } }
