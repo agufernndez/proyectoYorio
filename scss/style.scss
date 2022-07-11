@@ -47,25 +47,29 @@
 // IMAGEN DE FONDE DE CADA PAGE.
 // INDEX.
 #contentIndex{
-    background-image: url(../img/tinified/index.jpg);
+    background-image: url("../img/tinified/index.jpg");
 }
 
 //CONOCENOS.
 #contentConocenos{
-    background-image: url(../img/tinified/quienesSomos.jpg);
+    background-image: url("../img/tinified/quienesSomos.jpg");
 
 }
 
 //CAMPANIAS.
 #contentCampanias{
-    background-image: url(../img/tinified/campanias.jpg);
+    background-image: url("../img/tinified/campanias.jpg");
 
 }
 
 //CONTACTO.
 #contentContacto{
-    background-image: url(../img/tinified/contacto.jpg);
+    background-image: url("../img/tinified/contacto.jpg");
 
+}
+
+#contentComoAyudar {
+    background-image: url("../img/comoAyudarnos.jpg");
 }
 
 // MAIN - INDEX

@@ -164,16 +164,19 @@ img {
     text-shadow: 5px 4px 4px rgba(0, 0, 0, 0.9); }
 
 #contentIndex {
-  background-image: url(../img/tinified/index.jpg); }
+  background-image: url("../img/tinified/index.jpg"); }
 
 #contentConocenos {
-  background-image: url(../img/tinified/quienesSomos.jpg); }
+  background-image: url("../img/tinified/quienesSomos.jpg"); }
 
 #contentCampanias {
-  background-image: url(../img/tinified/campanias.jpg); }
+  background-image: url("../img/tinified/campanias.jpg"); }
 
 #contentContacto {
-  background-image: url(../img/tinified/contacto.jpg); }
+  background-image: url("../img/tinified/contacto.jpg"); }
+
+#contentComoAyudar {
+  background-image: url("../img/comoAyudarnos.jpg"); }
 
 .cards__section {
   display: flex;
