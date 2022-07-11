@@ -1,0 +1,32 @@
+@font-face {
+    font-family: R regular;
+    src: url(../font/Raleway-Regular.ttf);
+  }
+  @font-face {
+    font-family: R extrabold;
+    src: url(../font/Raleway-ExtraBold.ttf);
+    }
+    @font-face {
+        font-family: R thin;
+        src: url(../font/Raleway-Thin.ttf);
+        }
+  @font-face {
+      font-family: bodoni;
+      src: url(../font/bodoni-bd-bt/BodonBd.ttf);
+  }
+  
+  *{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+  }
+
+.footer__main {
+
+    font-family: R regular;
+
+}
+
+.footer__copyr {
+    background-color: #21D192
+}

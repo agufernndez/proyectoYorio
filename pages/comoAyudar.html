@@ -12,31 +12,53 @@
     </head>
 
     <body>
-        <header class="divHeader" data-aos="fade-up"
-        data-aos-duration="3000">
-                <img class="logoPNG" src="../img/YORIO SIN FONDO BLANCO.png" alt="Logo Yorio">
+        <header class="header">
+            <img class="header__logo" src="../img/YORIO SIN FONDO BLANCO copia.png" alt="Logo Yorio">
                 <div id="toggle-menu" class="toggle-menu">
                     <img src="../img/menuHamburguesa.png" alt="menuHamburguesa">
                 </div>
-                <nav class="listaNav" >
-                    <a class="nav" href="/index.html">INICIO</a>
-                    <a class="nav" href="/pages/conocenos.html">CONOCENOS</a>
-                    <a class="nav" href="/pages/campanias.html">CAMPAÑAS</a>
-                    <!-- <a class="nav" href="./pages/comoAyudar.html">CÓMO AYUDAR</a> -->
-                    <a class="nav" href="./pages/contacto.html">CONTACTO</a>
-
+                <nav class="header__nav" >
+                    <ul class="nav__list" id="nav__list">
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="../index.html">INICIO</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="./conocenos.html">CONOCENOS</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="./campanias.html">CAMPAÑAS</a>
+                        </li>
+                        <li class="nav__list-item">
+                            <a class="nav__list-link" href="./contacto.html">CONTACTO</a>
+                        </li>
+                    </ul>
                 </nav>
-                <button type="button" id="button" class="btn btn-success">AYUDANOS</button>
-                <!-- que el boton me redireccione a la pagina de mercado pago con los distintos montos a donar -->
+                <button type="button" id="header__button" class="btn btn-success"><a href="./comoAyudar.html">AYUDANOS</a></button>
+               <!-- link a mercado pago para donar libre -->
             </div>
         </header>
 
         <main class="main">
             <div class="container1" id="contentComoAyudar">
-                <h1 class="textoHeaderInicio" data-aos="fade-up"
+                <h1 class="container1__texto" data-aos="fade-up"
                 data-aos-duration="3000" >Cómo ayudarnos.</h1>
             </div>
+            <div>
+                <h3>
+                    DONACIONES
+                </h3>
 
+                <p>Debajo tendrás acceso a los links para donar montos determinados, para donar un monto específico
+                deseado hace <a href="">click acá</a></p>
+                    <div class="seccion__buttonlist m-5" data-aos="fade-up" data-aos-duration="1500">
+                        <a class="donatebutton" href="https://mpago.la/1kE3fir" target="_blank">$100</a>
+                        <a class="donatebutton" href="https://mpago.la/2M2xW86
+                        " target="_blank">$200</a>
+                        <a class="donatebutton" href="https://mpago.la/31yvedL" target="_blank">$300</a>
+                        <a class="donatebutton" href="https://mpago.la/28HLQwn" target="_blank">$400</a>
+                    </div>
+            </div>
+                
         </main>
 
         <footer>

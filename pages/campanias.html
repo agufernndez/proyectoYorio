@@ -1,68 +1,292 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Conocenos</title>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-        <link rel="icon" type="image/png" href="../img/YORIO SIN FONDO BLANCO.png" />
-        <link rel="stylesheet" href="../css/main.css" />
-        <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    </head>
 
-    <body>
-        <header class="header" data-aos="fade-up"
-        data-aos-duration="3000">
-                <img class="header__logo" src="../img/YORIO SIN FONDO BLANCO copia.png" alt="Logo Yorio">
-                <div id="toggle-menu" class="toggle-menu">
-                    <img src="../img/menuHamburguesa.png" alt="menuHamburguesa">
-                </div>
-                <nav class="header__nav" >
-                    <ul class="nav__list" id="nav__list">
-                        <li class="nav__list-item">
-                            <a class="nav__list-link" href="../index.html">INICIO</a>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conocenos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="icon" type="image/png" href="../img/YORIO SIN FONDO BLANCO.png" />
+    <link rel="stylesheet" href="../css/main.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="../css/bootstrap.min">
+</head>
+
+<body>
+    <header class="header">
+        <img class="header__logo" src="../img/YORIO SIN FONDO BLANCO copia.png" alt="Logo Yorio">
+        <div id="toggle-menu" class="toggle-menu">
+            <img src="../img/menuHamburguesa.png" alt="menuHamburguesa">
+        </div>
+        <nav class="header__nav">
+            <ul class="nav__list" id="nav__list">
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="../index.html">INICIO</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="./conocenos.html">CONOCENOS</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="./campanias.html">CAMPAÑAS</a>
+                </li>
+                <li class="nav__list-item">
+                    <a class="nav__list-link" href="./contacto.html">CONTACTO</a>
+                </li>
+            </ul>
+        </nav>
+
+
+        <button type="button" id="header__button" class="btn btn-success"><a href="./comoAyudar.html">AYUDANOS</a></button>
+        <!-- que el boton me redireccione a la pagina de mercado pago con los distintos montos a donar -->
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="container1" id="contentCampanias">
+            <h1 class="container1__texto" data-aos="fade-up" data-aos-duration="3000">Campañas.</h1>
+        </div>
+        <!-- SECCION -->
+
+
+        <div class="campanias__descripcion1 p-5" data-aos="fade-right" data-aos-duration="1500">
+            <div>
+                <h3 class="p-5">NUESTRAS CAMPAÑAS</h3>
+                <p class="p-5">El trabajo más común es el de caminar con bolsas de residuos, guantes, rastrillos, palas, ganchos
+                    y pinches sacando en modo de rastrillaje humano todo lo que el agua trae de los acuaductos no controlados
+                    de la ciudades y lo que la gente deja tirado. Al finalizar dejamos las bolsas en lugares correspondientes
+                    dónde delegaciones municipales pasan con camiones y llevan todo lo juntado a lugares que serán tratados.</p>
+                    <p class="p-5">
+                        En segundo lugar hacemos otro trabajo donde se lleva a cabo con botes.
+Es un trabajo fluvial, sacando todo tipo de plásticos, bolsas y demás
+desechos que vienen de salidas de arroyos que no tienen control, ni cuidado
+y desemboca en ríos que llegan al delta,dejando así un tendal de desechos que podrían ser reciclados.
+
+                    </p>
+            </div>
+            <img class="img-fluid rounded conocenos__img" src="../img/campanias7.JPG" alt="">
+        </div>
+
+
+        <section>
+            <div class="container__campanias m-5">
+                <div class="carousel">
+                    <input type="radio" name="slides" checked="checked" id="slide-1">
+                    <input type="radio" name="slides" id="slide-2">
+                    <input type="radio" name="slides" id="slide-3">
+                    <input type="radio" name="slides" id="slide-4">
+                    <input type="radio" name="slides" id="slide-5">
+                    <input type="radio" name="slides" id="slide-6">
+                    <ul class="carousel__slides">
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp1.JPG" alt="fotosdecampaña1">
+                                </div>
+                                <figcaption>
+                                    <span class="credit">Fotos: YoRio Tigre</span>
+                                </figcaption>
+                            </figure>
                         </li>
-                        <li class="nav__list-item">
-                            <a class="nav__list-link" href="./conocenos.html">CONOCENOS</a>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp2.JPG" alt="fotosdecampaña2">
+                                </div>
+                                <figcaption>
+                                    <span class="credit"> <span class="credit">Fotos: YoRio Tigre</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
                         </li>
-                        <li class="nav__list-item">
-                            <a class="nav__list-link" href="./campanias.html">CAMPAÑAS</a>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp3.JPG"alt="fotosdecampaña3">
+                                </div>
+                                <figcaption>
+                                    <span class="credit"> <span class="credit">Fotos: YoRio Tigre</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
                         </li>
-                        <li class="nav__list-item">
-                            <a class="nav__list-link" href="./contacto.html">CONTACTO</a>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp4.JPG" alt="fotosdecampaña4">
+                                </div>
+                                <figcaption>
+
+                                    <span class="credit"> <span class="credit">Fotos: YoRio Tigre</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp5.JPG" alt="fotosdecampaña5">
+                                </div>
+                                <figcaption>
+                                    <span class="credit"> <span class="credit">Fotos: YoRio Tigre</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp6.JPG" alt="fotosdecampaña6">
+                                </div>
+                                <figcaption>
+                                    <span class="credit"> <span class="credit">Fotos: YoRio Tigre</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
+                        </li>
+                        <li class="carousel__slide">
+                            <figure>
+                                <div>
+                                    <img src="../img/camp7.JPG" alt="fotosdecampaña6">
+                                </div>
+                                <figcaption>
+                                    <span class="credit"> <span class="credit">Fotos: YoRio Tigre</span>
+                                    </span>
+                                </figcaption>
+                            </figure>
                         </li>
                     </ul>
-                </nav>
-
-                
-                <button type="button" id="header__button" class="btn btn-success">AYUDANOS</button>
-                <!-- que el boton me redireccione a la pagina de mercado pago con los distintos montos a donar -->
+                    <ul class="carousel__thumbnails">
+                        <li>
+                            <label for="slide-1"><img src="../img/camp1.JPG" alt="fotomincampaña1"></label>
+                        </li>
+                        <li>
+                            <label for="slide-2"><img src="../img/camp2.JPG" alt="fotomincampaña2"></label>
+                        </li>
+                        <li>
+                            <label for="slide-3"><img src="../img/camp3.JPG" alt="fotomincampaña3"></label>
+                        </li>
+                        <li>
+                            <label for="slide-4"><img src="../img/camp4.JPG" alt="fotomincampaña4"></label>
+                        </li>
+                        <li>
+                            <label for="slide-5"><img src="../img/camp5.JPG" alt="fotomincampaña5"></label>
+                        </li>
+                        <li>
+                            <label for="slide-6"><img src="../img/camp6.JPG" alt="fotomincampaña6"></label>
+                        </li>
+                    </ul>
+                </div>
             </div>
-        </header>
+        </section>
 
-        <main class="main">
-            <div class="container1" id="contentCampanias">
-                <h1 class="container1__texto" data-aos="fade-up"
-                data-aos-duration="3000" >Campañas.</h1>
+        <div class="campanias__descripcion2 p-5">
+            <img class="img-fluid rounded conocenos__img" src="../img/camp8.jpeg" alt="" data-aos="fade-left"
+                data-aos-duration="1500">
+            <div>
+                <h3 class="p-5">MÁS DE NOSOTROS</h3>
+                <p class="p-5">Al terminar de hacer la jornada fluvial con nuestros cuidados correspondientes, chalecos salvavidas, guantes, y botas, que son
+                    donados gracias a los mismos voluntarios, podemos cumplir con las acciones y dejar un plano totalmente satisfactorio para la
+                    comunidad y la gente, que al participar se lleva de un momento trágico a un momento renovado limpio y puro donde se genera una
+                    energía única. Vivirlo y participar deja una sensación indescriptible.
+                </p>
+                    
+                    <p class="p-5">
+
+                        Hacemos plantaciónes de árboles autóctonos. Convocando niños y grandes, explicando lo importante que es plantar y conservar un espacio
+                        verde, para qué y que función cumple en nuestro ambiente, trabajando en conjunto con la tierra y dando a conocer cada especie y que función tienen las mismas.
+                        Tambien estamos dando charlas en colegios, clubes y empresas que esten abiertas a escuchar el proyecto.
+                    </p>
             </div>
+        </div>
 
-        </main>
 
-        <footer>
+
+
+
+
+    </main>
+
+    <!-- Footer -->
+
+
+    <div class="mt-5  col-sm-12">
+        <footer class="footer__main text-center text-lg-start text-dark" style="background-color: #ECEFF1">
+            <div>
+                <a href="" class="text-white me-4">
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-google"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="" class="text-white me-4">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+            </section>
+
+            <section class="">
+                <div class="container text-center text-md-start mt-5">
+                    <div class="row mt-3">
+                        <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                            <h6 class="text-uppercase fw-bold">YoRio</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #2ecc71; height: 2px" />
+                            <p>
+                                Somos una Organización no gubernamental (ONG) que se dedica a la regeneración de ríos,
+                                mares y costas mediante grupos de colección de residuos.
+                            </p>
+                        </div>
+                        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                            <h6 class="text-uppercase fw-bold">Contacto</h6>
+                            <hr class="mb-4 mt-0 d-inline-block mx-auto"
+                                style="width: 60px; background-color: #2ecc71; height: 2px" />
+                            <p>Argentina, Buenos Aires</p>
+                            <p>Instagram: yorioar</p>
+                            <p>WhatsApp: 1567594108</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <div class="footer__copyr text-center p-3">
+                © 2022 Copyright: YoRio AR
+            </div>
 
         </footer>
 
 
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>   
-            AOS.init(); 
-        </script>
-    
+        <!-- Termina el footer -->
+
+
+    </div>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(); 
+    </script>
+
     <script src="../menu.js"></script>
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
 
-    </body>
+</body>
+
 </html>
